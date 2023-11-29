@@ -9,6 +9,20 @@
     $donnes_auto = $connect_bdd->query('SELECT * FROM autoecole');
 
     $donnes_msg = $connect_bdd->query('SELECT * FROM msg');
+
+    if(isset($_POST['btn-sup-eng'])){
+        try{
+            $numsup = $_POST['sup-eng'];
+            $btn_sup = $connect_bdd->prepare("DELETE FROM `anglais` WHERE `id` = :id ");
+            $btn_sup->bindValue('id',$numsup);
+            $btn_sup->execute();
+
+            echo '<script>alert(\'Suppression Réussi\');</script>';
+        }catch(Exception $e){
+
+            echo '<script>alert(\'Erruer de Suppression\');</script>';
+        }
+    }
 ?>
 
 <!DOCTYPE html>
@@ -62,9 +76,9 @@
                 </ul>
         </div>
 
-        <div class="table-english container tabpers" data-anim="1">
+        <div class="table-english container tabpers mb-3" data-anim="1">
             <h1 class="text-3xl font-bold">Tableau des personnes inscrites pour la formation d'anglais</h1>
-            <table class="table table-dark table-striped-columns table-bordered table-success">
+            <table class="table table-dark table-striped-columns table-bordered table-success rounded">
                 <thead>
                     <tr>
                         <th>Numéro</th>
@@ -84,22 +98,28 @@
                 <tbody>
                     <?php while($reponses=$donnes_ang->fetch()){ ?>
                         <tr>
-                            <td><?php echo $reponses['id']; ?></td>
-                            <td><?php echo $reponses['mail']; ?></td>
-                            <td><?php echo $reponses['nom']; ?></td>
-                            <td><?php echo $reponses['postnom']; ?></td>
-                            <td><?php echo $reponses['prenom']; ?></td>
-                            <td><?php echo $reponses['nationalite']; ?></td>
-                            <td><?php echo $reponses['numtel']; ?></td>
-                            <td><?php echo $reponses['lieuNaiss']; ?></td>
-                            <td><?php echo $reponses['dateNaiss']; ?></td>
-                            <td><?php echo $reponses['sexe']; ?></td>
-                            <td><?php echo $reponses['etatcivil']; ?></td>
-                            <td><?php echo $reponses['confirm']; ?></td>
+                            <td><?= $reponses['id'] ?></td>
+                            <td><?= $reponses['mail'] ?></td>
+                            <td><?= $reponses['nom'] ?></td>
+                            <td><?= $reponses['postnom'] ?></td>
+                            <td><?= $reponses['prenom'] ?></td>
+                            <td><?= $reponses['nationalite'] ?></td>
+                            <td><?= $reponses['numtel'] ?></td>
+                            <td><?= $reponses['lieuNaiss'] ?></td>
+                            <td><?= $reponses['dateNaiss'] ?></td>
+                            <td><?= $reponses['sexe'] ?></td>
+                            <td><?= $reponses['etatcivil'] ?></td>
+                            <td><?= $reponses['confirm'] ?></td>
                         </tr>
                     <?php }?>
                 </tbody>
             </table>
+            <div class="row col-md-3 mb-3">
+                <form action="#" method="POST">
+                    <input type="text" class="form-control mb-2" name="sup-eng" placeholder="Entrer le numéro">
+                    <button class="btn btn-danger" name="btn-sup-eng">Supprimer</button>
+                </form>
+            </div>
         </div>
 
         <div class="table-info container tabpers" data-anim="2">
@@ -124,22 +144,26 @@
                 <tbody>
                     <?php while($reponses=$donnes_info->fetch()){ ?>
                         <tr>
-                            <td><?php echo $reponses['id']; ?></td>
-                            <td><?php echo $reponses['mail']; ?></td>
-                            <td><?php echo $reponses['nom']; ?></td>
-                            <td><?php echo $reponses['postnom']; ?></td>
-                            <td><?php echo $reponses['prenom']; ?></td>
-                            <td><?php echo $reponses['nationalite']; ?></td>
-                            <td><?php echo $reponses['numtel']; ?></td>
-                            <td><?php echo $reponses['lieuNaiss']; ?></td>
-                            <td><?php echo $reponses['dateNaiss']; ?></td>
-                            <td><?php echo $reponses['sexe']; ?></td>
-                            <td><?php echo $reponses['etatcivil']; ?></td>
-                            <td><?php echo $reponses['confirm']; ?></td>
+                            <td><?= echo $reponses['id'] ?></td>
+                            <td><?= echo $reponses['mail'] ?></td>
+                            <td><?= echo $reponses['nom'] ?></td>
+                            <td><?= echo $reponses['postnom'] ?></td>
+                            <td><?= echo $reponses['prenom'] ?></td>
+                            <td><?= echo $reponses['nationalite'] ?></td>
+                            <td><?= echo $reponses['numtel'] ?></td>
+                            <td><?= echo $reponses['lieuNaiss'] ?></td>
+                            <td><?= echo $reponses['dateNaiss'] ?></td>
+                            <td><?= echo $reponses['sexe'] ?></td>
+                            <td><?= echo $reponses['etatcivil'] ?></td>
+                            <td><?= echo $reponses['confirm'] ?></td>
                         </tr>
                     <?php }?>
                 </tbody>
             </table>
+            <div class="row col-md-3 mb-3">
+                <input type="text" class="form-control mb-2" name="sup-inf" placeholder="Entrer le numéro">
+                <button class="btn btn-danger" name="btn-sup-inf">Supprimer</button>
+            </div>
         </div>
 
         <div class="table-auto container tabpers" data-anim="3">
@@ -167,25 +191,29 @@
                 <tbody>
                     <?php while($reponses=$donnes_auto->fetch()){ ?>
                         <tr>
-                            <td><?php echo $reponses['id']; ?></td>
-                            <td><?php echo $reponses['mail']; ?></td>
-                            <td><?php echo $reponses['nom']; ?></td>
-                            <td><?php echo $reponses['postnom']; ?></td>
-                            <td><?php echo $reponses['prenom']; ?></td>
-                            <td><?php echo $reponses['numtel']; ?></td>
-                            <td><?php echo $reponses['adresse']; ?></td>
-                            <td><?php echo $reponses['nationalite']; ?></td>
-                            <td><?php echo $reponses['telurgence']; ?></td>
-                            <td><?php echo $reponses['lieuNaiss']; ?></td>
-                            <td><?php echo $reponses['dateNaiss']; ?></td>
-                            <td><?php echo $reponses['sexe']; ?></td>
-                            <td><?php echo $reponses['etatcivil']; ?></td>
-                            <td><?php echo $reponses['conduire']; ?></td>
-                            <td><?php echo $reponses['maitrise']; ?></td>
+                            <td><?= echo $reponses['id'] ?></td>
+                            <td><?= echo $reponses['mail'] ?></td>
+                            <td><?= echo $reponses['nom'] ?></td>
+                            <td><?= echo $reponses['postnom'] ?></td>
+                            <td><?= echo $reponses['prenom'] ?></td>
+                            <td><?= echo $reponses['numtel'] ?></td>
+                            <td><?= echo $reponses['adresse'] ?></td>
+                            <td><?= echo $reponses['nationalite'] ?></td>
+                            <td><?= echo $reponses['telurgence'] ?></td>
+                            <td><?= echo $reponses['lieuNaiss'] ?></td>
+                            <td><?= echo $reponses['dateNaiss'] ?></td>
+                            <td><?= echo $reponses['sexe'] ?></td>
+                            <td><?= echo $reponses['etatcivil'] ?></td>
+                            <td><?= echo $reponses['conduire'] ?></td>
+                            <td><?= echo $reponses['maitrise'] ?></td>
                         </tr>
                     <?php }?>
                 </tbody>
             </table>
+            <div class="row col-md-3 mb-3">
+                <input type="text" class="form-control mb-2" name="sup-auto-ecole" placeholder="Entrer le numéro">
+                <button class="btn btn-danger" name="btn-sup-auto-ecole">Supprimer</button>
+            </div>
         </div>
 
         <div class="container table-msg tabpers" data-anim="4">
@@ -202,10 +230,10 @@
                 <tbody>
                     <?php while($reponses = $donnes_msg->fetch()) {?>
                     <tr>
-                        <td><?php echo $reponses['id']; ?></td>
-                        <td><?php echo $reponses['nom']; ?></td>
-                        <td><?php echo $reponses['mail']; ?></td>
-                        <td><?php echo $reponses['msg']; ?></td>
+                        <td><?= echo $reponses['id'] ?></td>
+                        <td><?= echo $reponses['nom'] ?></td>
+                        <td><?= echo $reponses['mail'] ?></td>
+                        <td><?= echo $reponses['msg'] ?></td>
                     </tr>
                     <?php }?>
                 </tbody>

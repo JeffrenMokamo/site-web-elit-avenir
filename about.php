@@ -27,31 +27,57 @@
 
       <h1 class="text-3xl font-bold mb-4">Membres de l'équipe</h1>
       <p class="text-2xl text-gray-800 font-semibold mb-5 col-md-5">Une grande vision sans les gens formidables n'a pas d'importance, travaillons ensemble</p>
-      <div class="grid grid-cols-3 gap-10">
-          <div class="">
-             <img src="images/WhatsApp Image 2023-09-30 à 17.55.06.jpg" alt="" class=" rounded mb-3">
-             <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Jeffren Mokamo</span>
-             <p class="text-gray-400">Full-Stack-Developper</p>
+      <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-10">
+          <div class="text-center">
+             <img src="images/obed.jpg" alt="" class="rounded mb-3">
+             <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Butsila Mbungu obed</span>
+             <p class="text-gray-400">PDG</p>
               <div class="">
                 <i class="bi bi-twitter text-gray-400"></i><i class="bi bi-facebook ml-3 text-gray-400"></i><i class="bi bi-instagram ml-3 text-gray-400"></i>
               </div>              
           </div>
-          <div class="">
-            <img src="images/WhatsApp Image 2023-09-30 à 17.55.06.jpg" alt="" class=" rounded mb-3">
-            <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Jeffren Mokamo</span>
-            <p class="text-gray-400">Full-Stack-Developper</p>
+          <div class="text-center">
+            <img src="images/exaucé.jpg" alt="" class="rounded mb-3">
+            <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Ekala Exaucé</span>
+            <p class="text-gray-400">Directeur Commercial</p>
               <div class="">
                 <i class="bi bi-twitter text-gray-400"></i><i class="bi bi-facebook ml-3 text-gray-400"></i><i class="bi bi-instagram ml-3 text-gray-400"></i>
               </div>
           </div>
-          <div class="">
-            <img src="images/WhatsApp Image 2023-09-30 à 17.55.06.jpg" alt="" class=" rounded mb-3">
-            <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Jeffren Mokamo</span>
-            <p class="text-gray-400">Full-Stack-Developper</p>
+          <div class="text-center">
+            <img src="images/joel.jpg" alt="" class="rounded mb-3">
+            <span class="mb-3 text-xl mb-5 font-semibold text-gray-700 ">Kalala Joel</span>
+            <p class="text-gray-400">DG et Responsable Administratif</p>
             <div class="">
               <i class="bi bi-twitter text-gray-400"></i><i class="bi bi-facebook ml-3 text-gray-400"></i><i class="bi bi-instagram ml-3 text-gray-400"></i>
             </div>
           </div>
+
+          <div class="text-center">
+             <img src="images/ketsia.jpg" alt="" class="rounded mb-3">
+             <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Ketsia Kamin</span>
+             <p class="text-gray-400">Directrice Ressources Humaines</p>
+              <div class="">
+                <i class="bi bi-twitter text-gray-400"></i><i class="bi bi-facebook ml-3 text-gray-400"></i><i class="bi bi-instagram ml-3 text-gray-400"></i>
+              </div>              
+          </div>
+          <div class="text-center">
+            <img src="images/eliel.jpg" alt="" class="rounded mb-3">
+            <span class="mb-3 text-xl mb-5 font-semibold text-gray-700">Mwamba nyangama Eliel</span>
+            <p class="text-gray-400">Responsable Informatique et Marketing</p>
+              <div class="">
+                <i class="bi bi-twitter text-gray-400"></i><i class="bi bi-facebook ml-3 text-gray-400"></i><i class="bi bi-instagram ml-3 text-gray-400"></i>
+              </div>
+          </div>
+          <div class="text-center">
+            <img src="images/nicolas.jpg" alt="" class="rounded mb-3">
+            <span class="mb-3 text-xl mb-5 font-semibold text-gray-700 ">Nicolas</span>
+            <p class="text-gray-400">Directeur Technique</p>
+            <div class="">
+              <i class="bi bi-twitter text-gray-400"></i><i class="bi bi-facebook ml-3 text-gray-400"></i><i class="bi bi-instagram ml-3 text-gray-400"></i>
+            </div>
+          </div>
+
       </div>
 
     </div>

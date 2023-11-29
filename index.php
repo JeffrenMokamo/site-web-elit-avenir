@@ -45,12 +45,13 @@
               <div class="" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <h1>Bienvenue !</h1>
                 <h2 class="col-md-10">La meilleure manière de predire l'avenir est de le créer</h2>
-                <p class="col-md-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia inventore aliquid, corporis, ea enim aspernatur sint repellendus possimus similique suscipit pariatur quis, necessitatibus unde temporibus sunt obcaecati culpa nulla tempora?</p> 
+                <p class="col-md-10"></p> 
               </div>
             </div>
             <div class="forms">
-              <div class="rounded w-100 h-100 bg-info">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae harum non dolores error officia accusantium quos esse illo obcaecati asperiores nam, dignissimos eaque maxime molestiae natus! Sunt officiis deserunt, quos cupiditate consequatur cumque repellat quidem quasi, recusandae a, nesciunt odio corrupti? Architecto similique reiciendis ipsa. Obcaecati quaerat, doloremque eligendi velit voluptatem voluptate ex facilis. Adipisci quos ratione similique at aspernatur?</p>
+              <div class="rounded w-100 h-100 bg-info flex items-center justify-center flex-col">
+                <p class="text-2xl mb-3">Élite Avenir est une structure à finalité sociale vue l’apport qu’elle veut à cette dernière.</p>
+                <p class="text-1xl">Élite avenir est une société basée à Kinshasa, spécialisé dans plusieurs domaines d’activités. Notamment les formations professionnel, le Marketing et divers activités.</p>
               </div>
             </div>
         </div>
@@ -58,7 +59,7 @@
         <div class="about-elit w-100">
           <div class="text-center w-100">
             <h1>Notre histoire</h1>
-            <p class="w-100 col-md-2 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sapiente ducimus consequuntur dolorem esse incidunt excepturi!</p>
+            <p class="w-100 col-md-2 text-center">fondé en 2022 par le visionnaire Butsila Mbungu Obed, Elite Avenir est un centre de formation qui a connu une croissance rapide entre 2022 et 2023. En deux ans le centre de formation a formé différents candidats dans plusieurs domaine notamment, en anglais , informatique, gestion de projet , entrepreneuriat ,projet d’immigration et entrepreneuriat. Depuis lors elite avenir ne cesse de prouver son efficacité au peuple congolais.</p>
           </div>
 
           <div class="row">
@@ -79,17 +80,24 @@
           </div>
           <div class="row">
             <div class="col-md-4 anglais" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-              <img src="images/english.jpg" alt="" class="col-md-12">
+              <h1 class="text-2xl font-semibold text-gray-500 mb-3">Anglais</h1> 
+              <hr class="mb-3 col-md-7"> 
+             <img src="images/english.jpg" alt="" class="col-md-12">    
               <p class="col-md-12">Booster votre anglais avec une formation sur mesure. Apprendre facilement et rapidement !</p>
               <a href="form-anglais.php"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>
             <div class="col-md-4 auto-école">
-              <img src="images/auto.jpg" alt="" class="col-md-12 col-sm-12 col-xs-12">
+              <h1 class="text-2xl font-semibold text-gray-500 mb-3">Auto-Ecole</h1>
+              <hr class="mb-3 col-md-7">
+              <img src="images/auto.jpg" alt="" class="col-md-12">
               <p class="col-md-12">Apprendre à conduire, c'est apprendre à se deplacer sans difficulté, sans déranger les autres.</p>
               <a href="form-auto-ecole.php"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>
-            <div class="col-md-4 informatique">
-              <img class="col-md-12" src="images/informatique.jpeg" alt="" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="col-md-4 informatique" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <h1 class="text-2xl font-semibold text-gray-500 mb-3">Informatique</h1>
+              <hr class="mb-3 col-md-7">
+              <img class="col-md-12" src="images/informatique.jpeg" alt="">
+              
               <p class="col-md-12">De nos jours, une personne sans connaissances en informatique est une personne morte.</p>
               <a href="form-informatique.php"></a><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>

@@ -6,8 +6,20 @@ let index = 0, indexC = 0;
 
 links.forEach(link => {
 
-    if (link.href.includes(pageActive)) {
-        link.classList.add('active-l');
+    link.onclick = () => {
+        if (link.href.includes(pageActive)) {
+            if (link.classList.contains('active-l')) {
+                return;
+            }
+            else {
+                (function () {
+                    for (let i = 0; i < links.length; i++) {
+                        links[i].classList.remove('active-l');
+                    }
+                })();
+                link.classList.add('active-l');
+            }
+        }
     }
 })
 
@@ -15,6 +27,7 @@ const formsLinks = document.querySelectorAll('.formLinks');
 
 formsLinks.forEach(formlink => {
     formlink.onclick = () => {
+
         if (formlink.classList.contains('active-link-form')) {
             return;
         }
@@ -42,5 +55,3 @@ formsLinks.forEach(formlink => {
     }
 
 })
-
-alert('jeffren');

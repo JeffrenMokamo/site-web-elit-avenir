@@ -21,7 +21,7 @@
 
         <nav>
             <ul class="relative">
-                <li><a href="index.php" class="links-nav-ba">Accueil</a></li>
+                <li><a href="index.php" class="links-nav-ba active-l">Accueil</a></li>
                 <li><a href="about.php" class="links-nav-ba">Apropos</a></li>
                 <li><a href="#">Nos formations +</a>
                     <ul class="absolute">
@@ -36,6 +36,10 @@
                         <li class="flex items-center">
                             <i class="bi bi-car-front-fill"></i>
                             <a href="form-auto-ecole.php" class="links-nav-ba">Auto-école</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="bi bi-car-front-fill"></i>
+                            <a href="form-eleves.php" class="links-nav-ba">Pour élèves</a>
                         </li>
                     </ul>
                 </li>

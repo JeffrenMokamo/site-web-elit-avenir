@@ -202,30 +202,8 @@ body{
     background-position: center;
 }
 
-.elit-avenir-acc .text-acc-elit-avenir{
-    background-color: rgba(0, 0, 0, 0.5);
-    flex-direction: column;
-    padding: 50px 30px 30px 30px;
-    color: #fff;
-
-}
-
-.elit-avenir-acc .text-acc-elit-avenir h1{
-    font-size: 200%;
-    margin-bottom: 25px;
-}
-
-.elit-avenir-acc .text-acc-elit-avenir h2{
-    font-size: 230%;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-.elit-avenir-acc .text-acc-elit-avenir p{
-    font-size: 150%;
-}
-
 .elit-avenir-acc .forms{
-    padding: 50px 100px;
+    padding: 100px 100px;
 }
 
 .elit-avenir-acc .forms div{
@@ -271,6 +249,12 @@ body{
 .nos-formations div button{
     color: #fff;
     margin-bottom: 30px;
+}
+.nos-formations .row div .relative{
+    height: 300px!important;
+}
+.nos-formations .row div .relative h1{
+    color: #fff!important;
 }
 .comment{
     background-repeat: no-repeat;
@@ -342,7 +326,7 @@ footer .row .liens a:nth-child(1){
     margin-left: 70px;
 }
 
-/* Apropos             **************************************************** */
+/* Apropos  **************************************************** */
 
 .acc-about-elit{
     margin-top: 100px;
