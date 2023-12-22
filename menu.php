@@ -23,7 +23,7 @@
             <ul class="relative">
                 <li><a href="index.php" class="links-nav-ba active-l">Accueil</a></li>
                 <li><a href="about.php" class="links-nav-ba">Apropos</a></li>
-                <li><a href="#">Nos formations +</a>
+                <li><a href="javascript:void(0)">Nos formations +</a>
                     <ul class="absolute">
                         <li class="flex items-center">
                             <i class="bi bi-person-raised-hand"></i>

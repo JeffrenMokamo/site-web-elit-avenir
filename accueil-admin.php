@@ -144,18 +144,18 @@
                 <tbody>
                     <?php while($reponses=$donnes_info->fetch()){ ?>
                         <tr>
-                            <td><?= echo $reponses['id'] ?></td>
-                            <td><?= echo $reponses['mail'] ?></td>
-                            <td><?= echo $reponses['nom'] ?></td>
-                            <td><?= echo $reponses['postnom'] ?></td>
-                            <td><?= echo $reponses['prenom'] ?></td>
-                            <td><?= echo $reponses['nationalite'] ?></td>
-                            <td><?= echo $reponses['numtel'] ?></td>
-                            <td><?= echo $reponses['lieuNaiss'] ?></td>
-                            <td><?= echo $reponses['dateNaiss'] ?></td>
-                            <td><?= echo $reponses['sexe'] ?></td>
-                            <td><?= echo $reponses['etatcivil'] ?></td>
-                            <td><?= echo $reponses['confirm'] ?></td>
+                            <td><?= $reponses['id'] ?></td>
+                            <td><?=  $reponses['mail'] ?></td>
+                            <td><?=  $reponses['nom'] ?></td>
+                            <td><?=  $reponses['postnom'] ?></td>
+                            <td><?=  $reponses['prenom'] ?></td>
+                            <td><?=  $reponses['nationalite'] ?></td>
+                            <td><?=  $reponses['numtel'] ?></td>
+                            <td><?=  $reponses['lieuNaiss'] ?></td>
+                            <td><?=  $reponses['dateNaiss'] ?></td>
+                            <td><?=  $reponses['sexe'] ?></td>
+                            <td><?=  $reponses['etatcivil'] ?></td>
+                            <td><?=  $reponses['confirm'] ?></td>
                         </tr>
                     <?php }?>
                 </tbody>
@@ -191,21 +191,21 @@
                 <tbody>
                     <?php while($reponses=$donnes_auto->fetch()){ ?>
                         <tr>
-                            <td><?= echo $reponses['id'] ?></td>
-                            <td><?= echo $reponses['mail'] ?></td>
-                            <td><?= echo $reponses['nom'] ?></td>
-                            <td><?= echo $reponses['postnom'] ?></td>
-                            <td><?= echo $reponses['prenom'] ?></td>
-                            <td><?= echo $reponses['numtel'] ?></td>
-                            <td><?= echo $reponses['adresse'] ?></td>
-                            <td><?= echo $reponses['nationalite'] ?></td>
-                            <td><?= echo $reponses['telurgence'] ?></td>
-                            <td><?= echo $reponses['lieuNaiss'] ?></td>
-                            <td><?= echo $reponses['dateNaiss'] ?></td>
-                            <td><?= echo $reponses['sexe'] ?></td>
-                            <td><?= echo $reponses['etatcivil'] ?></td>
-                            <td><?= echo $reponses['conduire'] ?></td>
-                            <td><?= echo $reponses['maitrise'] ?></td>
+                            <td><?= $reponses['id'] ?></td>
+                            <td><?= $reponses['mail'] ?></td>
+                            <td><?= $reponses['nom'] ?></td>
+                            <td><?= $reponses['postnom'] ?></td>
+                            <td><?= $reponses['prenom'] ?></td>
+                            <td><?= $reponses['numtel'] ?></td>
+                            <td><?= $reponses['adresse'] ?></td>
+                            <td><?= $reponses['nationalite'] ?></td>
+                            <td><?= $reponses['telurgence'] ?></td>
+                            <td><?= $reponses['lieuNaiss'] ?></td>
+                            <td><?= $reponses['dateNaiss'] ?></td>
+                            <td><?= $reponses['sexe'] ?></td>
+                            <td><?= $reponses['etatcivil'] ?></td>
+                            <td><?= $reponses['conduire'] ?></td>
+                            <td><?= $reponses['maitrise'] ?></td>
                         </tr>
                     <?php }?>
                 </tbody>
@@ -230,10 +230,10 @@
                 <tbody>
                     <?php while($reponses = $donnes_msg->fetch()) {?>
                     <tr>
-                        <td><?= echo $reponses['id'] ?></td>
-                        <td><?= echo $reponses['nom'] ?></td>
-                        <td><?= echo $reponses['mail'] ?></td>
-                        <td><?= echo $reponses['msg'] ?></td>
+                        <td><?= $reponses['id'] ?></td>
+                        <td><?= $reponses['nom'] ?></td>
+                        <td><?= $reponses['mail'] ?></td>
+                        <td><?= $reponses['msg'] ?></td>
                     </tr>
                     <?php }?>
                 </tbody>

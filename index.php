@@ -42,9 +42,9 @@
   ?>
         <div class="elit-avenir-acc d-flex position-relative">
             <div class="text-acc-elit-avenir col-md-7 d-flex">
-              <div class="" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <h1>Bienvenue !</h1>
-                <h2 class="col-md-10">La meilleure manière de predire l'avenir est de le créer</h2>
+              <div class="pt-40 pl-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <h1 class="text-5xl text-white font-semibold mb-3">Bienvenue !</h1>
+                <h2 class="col-md-10 text-5xl text-white font-semibold">La meilleure manière de predire l'avenir est de le créer</h2>
                 <p class="col-md-10"></p> 
               </div>
             </div>
