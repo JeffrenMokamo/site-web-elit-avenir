@@ -15,7 +15,7 @@
         include('menu.php');
     ?>
 
-    <div class="acc-about-elit w-100">
+    <div style="background-image: url('images/blababla.avif');" class="acc-about-elit w-100">
         <h1 class="w-100 h-100 d-flex align-items-center justify-content-center">A propos</h1>
     </div>
     <div class="container txt-about rounded mb-4">

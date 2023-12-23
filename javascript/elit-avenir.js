@@ -55,5 +55,3 @@ formsLinks.forEach(formlink => {
     }
 
 })
-
-alert('bonjour');

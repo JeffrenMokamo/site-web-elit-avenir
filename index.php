@@ -40,10 +40,10 @@
   <?php 
     include('menu.php');
   ?>
-        <div class="elit-avenir-acc d-flex position-relative">
+        <div style="background-image: url('images/bourse.jpg');" class="elit-avenir-acc d-flex position-relative">
             <div class="text-acc-elit-avenir col-md-7 d-flex">
               <div class="pt-40 pl-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <h1 class="text-5xl text-white font-semibold mb-3">Bienvenue !</h1>
+                <h1 class="text-5xl text-white font-semibold mb-5">Bienvenue !</h1>
                 <h2 class="col-md-10 text-5xl text-white font-semibold">La meilleure manière de predire l'avenir est de le créer</h2>
                 <p class="col-md-10"></p> 
               </div>
@@ -89,7 +89,7 @@
             <div class="col-md-4 auto-école">
               <h1 class="text-2xl font-semibold text-gray-500 mb-3">Auto-Ecole</h1>
               <hr class="mb-3 col-md-7">
-              <img src="images/auto.jpg" alt="" class="col-md-12">
+              <img src="images/autoe.webp" alt="" class="col-md-12">
               <p class="col-md-12">Apprendre à conduire, c'est apprendre à se deplacer sans difficulté, sans déranger les autres.</p>
               <a href="form-auto-ecole.php"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>
@@ -118,7 +118,7 @@
             </div>
         </div>
 
-        <div style="background-image: url('images/aaa.jpg')" class="comment relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+        <div style="background-image: url('images/about1.jpg')" class="comment relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
         
           <div class="mx-auto max-w-7xl px-6 lg:px-8 w-100 h-100">
             <div class="mx-auto max-w-2xl lg:mx-0">

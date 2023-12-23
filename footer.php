@@ -13,7 +13,7 @@
         <div class="links row d-flex align-items-center">
           <p class="col-md-6"><span>&copy</span> copyrigth elit-avenir 2023</p>
           <div class="liens col-md-6">
-            <a href="#" class="">a propos</a>
+            <a href="about.php" class="">a propos</a>
             <a href="#" class="">politique de confidentialité</a>
             <a href="#" class="">gallery</a>
             <a href="conntect-admin.php" class="">se connecter</a>

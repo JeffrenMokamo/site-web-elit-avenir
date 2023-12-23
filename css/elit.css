@@ -194,12 +194,17 @@ body{
 .elit-avenir-acc{
     margin-top: 100px!important;
     height: 80vh;
-    background-image: url('../images/blababla.avif');
     background-attachment: fixed;
     width: 100%!important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.elit-avenir-acc .text-acc-elit-avenir{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 100%;
 }
 
 .elit-avenir-acc .forms{
@@ -330,7 +335,6 @@ footer .row .liens a:nth-child(1){
 
 .acc-about-elit{
     margin-top: 100px;
-    background-image: url('../images/about.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

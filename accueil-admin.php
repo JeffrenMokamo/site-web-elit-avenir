@@ -10,19 +10,19 @@
 
     $donnes_msg = $connect_bdd->query('SELECT * FROM msg');
 
-    if(isset($_POST['btn-sup-eng'])){
-        try{
-            $numsup = $_POST['sup-eng'];
-            $btn_sup = $connect_bdd->prepare("DELETE FROM `anglais` WHERE `id` = :id ");
-            $btn_sup->bindValue('id',$numsup);
-            $btn_sup->execute();
+    // if(isset($_POST['btn-sup-eng'])){
+    //     try{
+    //         $numsup = $_POST['sup-eng'];
+    //         $btn_sup = $connect_bdd->prepare("DELETE FROM `anglais` WHERE `id` = :id ");
+    //         $btn_sup->bindValue('id',$numsup);
+    //         $btn_sup->execute();
 
-            echo '<script>alert(\'Suppression Réussi\');</script>';
-        }catch(Exception $e){
+    //         echo '<script>alert(\'Suppression Réussi\');</script>';
+    //     }catch(Exception $e){
 
-            echo '<script>alert(\'Erruer de Suppression\');</script>';
-        }
-    }
+    //         echo '<script>alert(\'Erruer de Suppression\');</script>';
+    //     }
+    // }
 ?>
 
 <!DOCTYPE html>
