@@ -40,11 +40,11 @@
   <?php 
     include('menu.php');
   ?>
-        <div style="background-image: url('images/bourse.jpg');" class="elit-avenir-acc d-flex position-relative">
+        <div style="background-image: url('images/etudiant-africain-2.webp');" class="elit-avenir-acc d-flex position-relative">
             <div class="text-acc-elit-avenir col-md-7 d-flex">
-              <div class="pt-40 pl-5" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div class="pt-40 pl-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <h1 class="text-5xl text-white font-semibold mb-5">Bienvenue !</h1>
-                <h2 class="col-md-10 text-5xl text-white font-semibold">La meilleure manière de predire l'avenir est de le créer</h2>
+                <h2 class="col-md-10 text-7xl text-white font-semibold">La meilleure manière de predire l'avenir est de le créer</h2>
                 <p class="col-md-10"></p> 
               </div>
             </div>
@@ -64,7 +64,7 @@
 
           <div class="row">
             <div class="img-about-elit h-100 col-md-6">
-              <img class="rounded col-md-12" src="images/etudiant-africain-2.webp" alt="">
+              <img class="rounded col-md-12" src="images/blababla.avif" alt="">
             </div>
             <div class="txt-about-elit col-md-6 d-flex flex-col">
               <h1>A propos</h1>

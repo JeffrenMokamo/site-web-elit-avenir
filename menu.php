@@ -38,7 +38,7 @@
                             <a href="form-auto-ecole.php" class="links-nav-ba">Auto-école</a>
                         </li>
                         <li class="flex items-center">
-                            <i class="bi bi-car-front-fill"></i>
+                        <i class="bi bi-backpack-fill"></i>
                             <a href="form-eleves.php" class="links-nav-ba">Pour élèves</a>
                         </li>
                     </ul>

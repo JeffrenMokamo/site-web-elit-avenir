@@ -151,7 +151,7 @@ sup{
         }
         
         .elit-avenir-acc .text-acc-elit-avenir h2{
-            font-size: 180%!important;
+            font-size: 200%!important;
             margin-bottom: 20px;
             font-weight: bold;
         }
@@ -186,7 +186,6 @@ sup{
 body{
     margin: 0;
     padding: 0;
-    /* font-family: "poppins", sans-serif!important; */
     overflow-x: hidden;
 }
 
