@@ -6,7 +6,6 @@ let index = 0, indexC = 0;
 
 links.forEach(link => {
 
-    link.onclick = () => {
         if (link.href.includes(pageActive)) {
             if (link.classList.contains('active-l')) {
                 return;
@@ -20,7 +19,6 @@ links.forEach(link => {
                 link.classList.add('active-l');
             }
         }
-    }
 })
 
 const formsLinks = document.querySelectorAll('.formLinks');

@@ -1,30 +1,3 @@
-<?php 
-
-    include('connexion-bdd.php');
-
-    if(isset($_POST['form-info'])){
-        try {
-            $mail = $_POST['mail'];
-            $nom = $_POST['nom'];
-            $post = $_POST['post'];
-            $prenom = $_POST['prenom'];
-            $nationalite = $_POST['nationalite'];
-            $numwhat = $_POST['numwhat'];
-            $lieu = $_POST['lieu'];
-            $dnaiss = $_POST['dnaiss'];
-            $sexe = $_POST['sexe'];
-            $etat = $_POST['etat-civ'];
-            $formation = $_POST['formation'];
-            $insert = $connect_bdd->prepare('INSERT INTO informatique(mail, nom, postnom, prenom, nationalite, numtel, lieuNaiss, dateNaiss,sexe,etatcivil,confirm) VALUES(?,?,?,?,?,?,?,?,?,?,?)');
-
-            $res = $insert->execute(array($mail, $nom, $post, $prenom, $nationalite, $numwhat, $lieu, $dnaiss, $sexe, $etat, $formation));
-
-            echo '<script>alert(\'Enregistrement réussi ! Vous aurez un message pour la confirmation\');</script>';
-        } catch (Eception $e) {
-            echo '<script>alert(\'Echec d\'enregistrement\'); </script>';
-        }
-    }
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -140,15 +113,15 @@
                 <div class="form-group col-md-4 mb-3">
                     <label>Sexe<sup>*</sup></label>
                     <div>
-                        <input type="radio" name="sexe" value="Masculin" required id="h"><label for="h"> Masculin</label>
-                        <input type="radio" name="sexe" value="Feminin" required id="f"><label for="f"> Feminin</label>
+                        <input type="radio" name="sexe-info" value="Masculin" required id="h"><label for="h"> Masculin</label>
+                        <input type="radio" name="sexe-info" value="Feminin" required id="f"><label for="f"> Feminin</label>
                     </div>
                 </div>
                 <div class="form-group col-md-4 mb-3">
                     <label>Eatt-civil<sup>*</sup></label>
                     <div>
-                        <input type="radio" name="etat-civ" value="Marié" required id="h"><label for="m"> Marié</label>
-                        <input type="radio" name="etat-civ" value="Célibataire" required id="f"><label for="c"> Célibataire</label>
+                        <input type="radio" name="etat-civ-info" value="Marié" required id="h"><label for="m"> Marié</label>
+                        <input type="radio" name="etat-civ-info" value="Célibataire" required id="f"><label for="c"> Célibataire</label>
                     </div>
                 </div>
                 <div class="form-group col-md-4 mb-3">
