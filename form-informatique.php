@@ -120,8 +120,8 @@
                 <div class="form-group col-md-4 mb-3">
                     <label>Eatt-civil<sup>*</sup></label>
                     <div>
-                        <input type="radio" name="etat-civ-info" value="Marié" required id="h"><label for="m"> Marié</label>
-                        <input type="radio" name="etat-civ-info" value="Célibataire" required id="f"><label for="c"> Célibataire</label>
+                        <input type="radio" name="etat-civ-info" value="Marié" required id="m"><label for="m"> Marié</label>
+                        <input type="radio" name="etat-civ-info" value="Célibataire" required id="c"><label for="c"> Célibataire</label>
                     </div>
                 </div>
                 <div class="form-group col-md-4 mb-3">

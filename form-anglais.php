@@ -116,21 +116,21 @@
                 <div class="form-group col-md-4 mb-3">
                     <label>Sexe<sup>*</sup></label>
                     <div>
-                        <input type="radio" name="sexe-ang" value="Masculin"><label for="h"> Masculin</label>
-                        <input type="radio" name="sexe-ang" value="Feminin"><label for="f"> Feminin</label>
+                        <input type="radio" name="sexe-ang" value="Masculin" id="h"><label for="h"> Masculin</label>
+                        <input type="radio" name="sexe-ang" value="Feminin" id="f"><label for="f"> Feminin</label>
                     </div>
                 </div>
                 <div class="form-group col-md-4 mb-3">
                     <label>Ett-civil<sup>*</sup></label>
                     <div>
-                        <input type="radio" name="etat-civ-ang" value="Marié" required id="h"><label for="m"> Marié</label>
-                        <input type="radio" name="etat-civ-ang" value="Célibataire" required id="f"><label for="c"> Célibataire</label>
+                        <input type="radio" name="etat-civ-ang" value="Marié" required id="m"><label for="m"> Marié</label>
+                        <input type="radio" name="etat-civ-ang" value="Célibataire" required id="c"><label for="c"> Célibataire</label>
                     </div>
                 </div>
                 <div class="form-group col-md-4 mb-3">
                     <label>Avez-vous déjà effectué une formation en anglais ?</label>
                     <div>
-                        <input type="radio" name="formation-ang" value="Oui" required id="n"><label for="o"> Oui</label>
+                        <input type="radio" name="formation-ang" value="Oui" required id="o"><label for="o"> Oui</label>
                         <input type="radio" name="formation-ang" value="Non" required id="n"><label for="n"> Non</label>
                     </div>
                 </div>
