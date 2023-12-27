@@ -16,10 +16,10 @@
 ?>
     <div style="background-image:url('images/Contact_us_relaunch_banner.jpg');" class="acc-cont mb-3 text-center">
         <h1 class="text-4xl text-white font-semibold p-5">Contact</h1>
-        <i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-facebook"></i>
-        <i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-linkedin"></i>
-        <i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-whatsapp"></i>
-        <i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-instagram"></i>
+        <a href="https://m.facebook.com.profile.php/?id=100048547756064"><i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-facebook"></i></a>
+        <a href="htpps://wa.me/message/PSPMFYGPDXENH1"><i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-linkedin"></i></a>
+        <a href="htpps://x.com.elit_avenir/status/1721860991116283956?s=Eq744PWLwz2wA3BwLjNOgw"><i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-twitter"></i></a>
+        <a href="htpps://www.instagram.com/elit_avenir"><i class="text-white text-2xl p-2 mb-4 cursor-pointer bi bi-instagram"></i></a>
         <h3 class="text-2xl text-white mt-3"><i class="bi bi-geo-alt-fill"></i>Nouvelle galerie présidentielle, <strong>Niveau 21, appartement 21</strong></h3>
     </div>
     <div class="container">
