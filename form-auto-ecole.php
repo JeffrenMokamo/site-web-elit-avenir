@@ -76,7 +76,7 @@
     </div>
     </div>
 
-    <div class="container p-20">
+    <div class="container">
         <form action="" method="POST" class="form">
             <legend>Inscription formation Auto-Ecole</legend>
             <p class="text text-danger">* Indique une question obligatoire</p><br>

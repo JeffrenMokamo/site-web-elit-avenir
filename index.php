@@ -40,9 +40,49 @@
   <?php 
     include('menu.php');
   ?>
-        <div style="background-image: url('images/etudiant-africain-2.webp');" class="elit-avenir-acc d-flex position-relative">
+  <div class="fixed top-0 bg-white nav-bar flex w-full items-center">
+    <label for="menu-bottom"><i class="bi bi-list"></i></label>
+    <input type="checkbox" id="menu-bottom">
+    <div class="logo">
+        <a href="index.html" class="flex items-center">
+            <img src="images/logo-elit.png" alt="" class="w-12">
+            <h2 class="font-semibold">ELITE AVENIR</h2>
+        </a>
+    </div>
+
+    <nav>
+        <ul class="relative">
+            <li><a href="index.html" class="links-nav-ba active-l">Accueil</a></li>
+            <li><a href="about.html" class="links-nav-ba">Apropos</a></li>
+            <li><a href="javascript:void(0)">Nos formations +</a>
+                <ul class="absolute">
+                    <li class="flex items-center">
+                        <i class="bi bi-person-raised-hand"></i>
+                        <a desabled href="form-anglais.html" class="links-nav-ba">Anglais</a>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="bi bi-laptop"></i>
+                        <a href="form-informatique.html" class="links-nav-ba">Informatique</a>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="bi bi-car-front-fill"></i>
+                        <a href="form-auto-ecole.html" class="links-nav-ba">Auto-école</a>
+                    </li>
+                    <li class="flex items-center">
+                    <i class="bi bi-backpack-fill"></i>
+                        <a href="form-eleves.html" class="links-nav-ba">Pour élèves</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <button class=""><a href="contact.html">Contact</button></a>
+</div>
+
+
+        <div style="background-image: url('images/etudiant-africain-2.webp');" class="elit-avenir-acc d-flex position-relative w-100">
             <div class="text-acc-elit-avenir col-md-7 d-flex">
-              <div class="pt-40 pl-10" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+              <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <h1 class="text-5xl text-white font-semibold mb-5">Bienvenue !</h1>
                 <h2 class="col-md-10 text-7xl text-white font-semibold">La meilleure manière de predire l'avenir est de le créer</h2>
                 <p class="col-md-10"></p> 
@@ -74,7 +114,7 @@
           </div>
         </div>
 
-        <div class="nos-formations col-md-12 container">
+        <div style="overflow-x: hidden;" class="nos-formations col-md-12 container">
           <div class="titre">
             <h1>Nos formations</h1>
           </div>
@@ -84,14 +124,14 @@
               <hr class="mb-3 col-md-7"> 
              <img src="images/english.jpg" alt="" class="col-md-12">    
               <p class="col-md-12">Booster votre anglais avec une formation sur mesure. Apprendre facilement et rapidement !</p>
-              <a href="form-anglais.php"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
+              <a href="form-anglais.html"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>
             <div class="col-md-4 auto-école">
               <h1 class="text-2xl font-semibold text-gray-500 mb-3">Auto-Ecole</h1>
               <hr class="mb-3 col-md-7">
               <img src="images/autoe.webp" alt="" class="col-md-12">
               <p class="col-md-12">Apprendre à conduire, c'est apprendre à se deplacer sans difficulté, sans déranger les autres.</p>
-              <a href="form-auto-ecole.php"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
+              <a href="form-auto-ecole.html"><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>
             <div class="col-md-4 informatique" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <h1 class="text-2xl font-semibold text-gray-500 mb-3">Informatique</h1>
@@ -99,7 +139,7 @@
               <img class="col-md-12" src="images/informatique.jpeg" alt="">
               
               <p class="col-md-12">De nos jours, une personne sans connaissances en informatique est une personne morte.</p>
-              <a href="form-informatique.php"></a><button class="btn btn-primary col-md-5">S'inscrire</button></a>
+              <a href="form-informatique.html"></a><button class="btn btn-primary col-md-5">S'inscrire</button></a>
             </div>
           </div>
         </div>
@@ -133,7 +173,7 @@
           </div>
         </div>
 
-        <div class="remises-brevets container">
+        <div style="overflow: hidden;" class="remises-brevets container">
           <h1>Rémise des brevets</h1>
           <div class="row">
             <div class="col-md-6" data-aos="fade-up"data-aos-anchor-placement="bottom-bottom">

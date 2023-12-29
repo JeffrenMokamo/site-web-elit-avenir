@@ -15,6 +15,45 @@
         include('menu.php');
     ?>
 
+<div class="fixed top-0 bg-white nav-bar flex w-full items-center">
+      <label for="menu-bottom"><i class="bi bi-list"></i></label>
+      <input type="checkbox" id="menu-bottom">
+      <div class="logo">
+          <a href="index.html" class="flex items-center">
+              <img src="images/logo-elit.png" alt="" class="w-12">
+              <h2 class="font-semibold">ELITE AVENIR</h2>
+          </a>
+      </div>
+
+      <nav>
+          <ul class="relative">
+              <li><a href="index.html" class="links-nav-ba active-l">Accueil</a></li>
+              <li><a href="about.html" class="links-nav-ba">Apropos</a></li>
+              <li><a href="javascript:void(0)">Nos formations +</a>
+                  <ul class="absolute">
+                      <li class="flex items-center">
+                          <i class="bi bi-person-raised-hand"></i>
+                          <a desabled href="form-anglais.html" class="links-nav-ba">Anglais</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="bi bi-laptop"></i>
+                          <a href="form-informatique.html" class="links-nav-ba">Informatique</a>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="bi bi-car-front-fill"></i>
+                          <a href="form-auto-ecole.html" class="links-nav-ba">Auto-école</a>
+                      </li>
+                      <li class="flex items-center">
+                      <i class="bi bi-backpack-fill"></i>
+                          <a href="form-eleves.html" class="links-nav-ba">Pour élèves</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+      <button class=""><a href="contact.html">Contact</button></a>
+  </div>
+
     <div style="background-image: url('images/blababla.avif');" class="acc-about-elit w-100">
         <h1 class="w-100 h-100 d-flex align-items-center justify-content-center">A propos</h1>
     </div>

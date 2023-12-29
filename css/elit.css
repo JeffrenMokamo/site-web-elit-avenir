@@ -16,10 +16,11 @@ sup{
 
     .nav-bar label{
         position: absolute;
-        font-size: 25px;
+        font-size: 32px;
+        cursor: pointer;
         padding: 5px;
         font-weight: bold;
-        right: 20px;
+        right: 10px;
         display: none;
     }
 
@@ -41,7 +42,7 @@ sup{
     }
 
     .nav-bar nav{
-        transition: .2s ease-in-out;
+        transition: .4s ease-in-out;
         transform: translateX(0);
         background-color: #fff;
     }
@@ -82,11 +83,17 @@ sup{
     @media(max-width:1000px) {
 
         .nav-bar{
-            padding: 0 20px;
+            padding: 0 10px;
         }
         .nav-bar button{
             position: absolute;
-            right: 100px;
+            right: 50px;
+            background-color: dodgerblue;
+            color: #fff;
+            width: 120px;
+            font-size: 15px;
+            border-radius: 50px;
+            height: 30px;
         }
         .nav-bar label{
             display: initial;
@@ -98,7 +105,7 @@ sup{
             left: 0;
             right: 0;
             border-top: 1Px solid rgba(217, 217, 217, .3);
-            transform: translateX(-100%)!important;
+            transform: translateX(100%)!important;
             border-bottom: 1px solid rgba(217, 217, 217, .3);
         }
         nav ul li{
@@ -114,7 +121,10 @@ sup{
             padding: 0!important;
         }
         footer .row .liens a:nth-child(1){
-            margin-left: 0!important;
+            margin-left: 10px!important;
+        }
+        footer{
+            padding: 30px 50px 20px 50px!important;
         }
         .liens{
             display: flex;
@@ -137,13 +147,13 @@ sup{
         }
         .elit-avenir-acc{
             flex-direction: column;
+            width: 100%!important;
         }
         .elit-avenir-acc .text-acc-elit-avenir{
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 10px!important;
+            padding: 50px 20px!important;
             color: #fff;  
             width: 100%!important;
-            height: 60%!important;
+            height: 45%!important;
         }
         .elit-avenir-acc .text-acc-elit-avenir h1{
             font-size: 170%!important;
@@ -154,9 +164,6 @@ sup{
             font-size: 200%!important;
             margin-bottom: 20px;
             font-weight: bold;
-        }
-        .elit-avenir-acc .text-acc-elit-avenir p{
-            font-size: 120%!important;
         }
         .elit-avenir-acc .forms{
             padding: 10px!important;
@@ -186,15 +193,13 @@ sup{
 body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden!important;
 }
-
 
 .elit-avenir-acc{
     margin-top: 100px!important;
     height: 80vh;
     background-attachment: fixed;
-    width: 100%!important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -204,6 +209,8 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     width: 60%;
     height: 100%;
+    padding-left: 10px;
+    padding-top: 150px;
 }
 
 .elit-avenir-acc .forms{
@@ -296,7 +303,6 @@ body{
 
 footer{
     padding: 60px 100px 20px 100px;
-    background-repeat: no-repeat;
     width: 100%!important;
     bottom: 0;
     background-color: #283277;
@@ -335,9 +341,8 @@ footer .row .liens a:nth-child(1){
 .acc-about-elit{
     margin-top: 100px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     height: 50vh;
 }
 
