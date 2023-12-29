@@ -13,10 +13,10 @@
 <body>
     
 
-    <div style="height: 100vh" class="msgPaiementReussi flex items-center w-100 justify-content-center flex-column text-center">
+    <div style="height: 100vh" class="flex items-center w-100 justify-content-center flex-column text-center">
 
         <h1 class="text-4xl mb-4">Paiement réussi ✔️</h1>
-        <p class="md:text-2xl sm:text-1xl ">Merci d'avoir fais confiance à elite avenir vous ne serai jamais déçu 😍</p>
+        <p class="md:text-2xl sm:text-1xl ">Merci d'avoir fais confiance à elite avenir vous ne serai jamais déçu </p>
         <p class="text-1xl mb-3">Vous recevrez un message de confirmation</p>
 
         <a href="index.php"><button class="btn btn-primary">Retourner à l'accueil</button></a>
